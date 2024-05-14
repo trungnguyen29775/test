@@ -1,0 +1,1006 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	In Diem Tong Ket 
+</title></head>
+<body>
+    <form method="post" action="./Report_xemDiemThi.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjgyMjI4MDMxD2QWAgIDD2QWAgIBDw8WBB4PV2ViUmVwb3J0U3RhdHVzCymUAVN0aW11bHNvZnQuUmVwb3J0LldlYi5TdGlXZWJWaWV3ZXIrU3RpV2ViUmVwb3J0U3RhdHVzLCBTdGltdWxzb2Z0LlJlcG9ydC5XZWIsIFZlcnNpb249MjAwOS4xLjMyMy4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWViZTY2NjZjYmExOTY0N2EAHhBTZXJ2ZXJSZXBvcnROYW1lBSQzMDZmODkwMS05YzNlLTQ2MWYtYTlmZS0wYWE3ZjdiNjMzMTRkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WBAUXU3RpV2ViVmlld2VyMSRGaXJzdFBhZ2UFFlN0aVdlYlZpZXdlcjEkUHJldlBhZ2UFFlN0aVdlYlZpZXdlcjEkTmV4dFBhZ2UFFlN0aVdlYlZpZXdlcjEkTGFzdFBhZ2U6x3YM1+4m501BHr4MJq4swBNWRbSUwM4Vgbny3FeZuQ==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=q8_VVsKRCahPDY64V4Jo-Vbs1FQxJVogaZjEzVSbe9e3mNB-pOlfA9e1vaiICHnUixaZEy27L8SelrUsbRfmabNOZXyIWW_SE2MpXHg9EcA1&amp;t=636888024864333665" type="text/javascript"></script>
+
+<style type="text/css">
+div.stidatepicker,
+div.stidatepicker select.hidden,
+div.stidatepicker input.hidden {
+	position: absolute;
+	visibility: hidden;
+	left: -200px; }
+	
+div.stidatepicker table.border
+{
+	border: 2px solid;
+	border-left-color: #d0f0ff;
+	border-top-color: #d0f0ff;
+	border-right-color: #80b0ff;
+	border-bottom-color: #80b0ff;
+}
+	
+div.stidatepicker table.caption {
+	border: 0px;
+	border-bottom: 1px solid #80b0ff;
+	font-family: "MS Sans Serif", Serif;
+	font-size: 13px;
+	color: #282828;
+	background-color: #a0d0ff;
+	width: 200px;
+	height: 24px; }
+	
+div.stidatepicker div.button td {
+	border: 1px solid #a0d0ff;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #a0d0ff;
+	width: 17px;
+	height: 19px;
+	cursor: default; }
+
+div.stidatepicker div.button td.hover {
+	border-left-color: #d0f0ff;
+	border-top-color: #d0f0ff;
+	border-right-color: #80b0ff;
+	border-bottom-color: #80b0ff;
+	background-color: #a8d8ff; }
+
+div.stidatepicker div.button td.down {
+	border-left-color: #80b0ff;
+	border-top-color: #80b0ff;
+	border-right-color: #d0f0ff;
+	border-bottom-color: #d0f0ff;
+	background-color: #9acaff; }
+
+div.stidatepicker td.grayed {
+	color: #c0c0c0; }
+
+
+div.stidatepicker td.date {
+	cursor: pointer; }
+
+div.stidatepicker table.border2 {
+	border: 1px solid #a0d0ff; }
+
+div.stidatepicker td.today {
+	border: 1px solid #a0d0ff; 
+	background-color: #a0d0ff;
+	padding: 1px; 
+	font-family: Arial;
+	font-size: 12px;
+	width: 100%; }
+
+div.stidatepicker td.caption {
+	border-bottom: 1px solid #a0d0ff;
+	background-color: #a0d0ff;
+	padding: 0px; }
+
+div.stidatepicker td.month {
+	border: 1px solid;
+	background-color: #f2faff;
+	border-left-color: #80b0ff;
+	border-top-color: #80b0ff;
+	border-right-color: #d0f0ff;
+	border-bottom-color: #d0f0ff;
+	padding: 0px; }
+
+div.stidatepicker table.monthTable td {
+	border: 1px solid #f2faff;
+	cursor: default; 
+	text-align: center; 
+	padding: 4px; }
+	
+div.stidatepicker table.monthTable td.hover 
+{
+	border: 1px solid #80a0c0;
+	background-color: #c0e0ff; }
+	
+div.stidatepicker table.monthTable td.now
+{
+	border: 1px solid #80a0c0; }
+
+div.stidatepicker table.monthTable td.selected
+{
+	background-color: #c0e0ff; }</style>
+<script language="javascript" type="text/javascript">
+var previousDate = null;
+
+var MonthJanuary = 'January';
+var MonthFebruary = 'February';
+var MonthMarch = 'March';
+var MonthApril = 'April';
+var MonthMay = 'May';
+var MonthJune = 'June';
+var MonthJuly = 'July';
+var MonthAugust = 'August';
+var MonthSeptember = 'September';
+var MonthOctober = 'October';
+var MonthNovember = 'November';
+var MonthDecember = 'December';
+var DayMonday = 'Monday';
+var DayTuesday = 'Tuesday';
+var DayWednesday = 'Wednesday';
+var DayThursday = 'Thursday';
+var DayFriday = 'Friday';
+var DaySaturday = 'Saturday';
+var DaySunday = 'Sunday';
+var TodayDate = 'Today';
+
+
+function GetLeftPosition(item)
+{
+    var left = 0;
+    for (; item; item = item.offsetParent) if (item.style.position != 'absolute') left += item.offsetLeft;
+    return left;
+}
+
+function GetTopPosition(item)
+{
+    var top = 0;
+    for (; item; item = item.offsetParent) if (item.style.position != 'absolute') top += item.offsetTop;
+    return top;
+}
+
+function StiDatePickerRenderButton(text, action)
+{
+    document.write('<td>');
+    document.write('<div class=button><table border="0" cellspacing="0" cellpadding="0"><tr>');
+    document.write('<td align="center"');
+    document.write(' onmouseover="this.className=\'hover\';"');
+    document.write(' onmousedown="this.className=\'down\'; return false;"');
+    document.write(' onmouseup="this.className=\'hover\'; ' + action + '"');
+    document.write(' onmouseout="this.className=null;"');
+    document.write(' onselectstart="return false;"');
+    document.write('><nobr>');
+    document.write(text + '</nobr></td>');
+    document.write('</tr></table></div>');
+    document.write('</td>');
+}
+
+function StiDatePickerRenderCaption(monthNames, date)
+{
+    month = monthNames[date.getMonth()];
+    year = date.getFullYear();
+
+    document.write('<table id="StiDatePicker_Caption" class="caption" border="0" cellspacing="0" cellpadding="0"><tr>');
+    
+    document.write('<td width="55%">&nbsp</td>');
+    document.write('<td class="date" align="right" width="1%"');
+    document.write(' onclick="StiDatePickerShowMonth(this);"');
+    document.write('><span id="StiDatePickerMonthLabel">' + month + '</span></td>');
+    document.write('<td width="8px" align="left">,&nbsp</td>');
+    document.write('<td class="date" align="left" width="1%"');
+    document.write(' onclick="StiDatePickerShowYear(this);"');
+    document.write('><span id="StiDatePickerYearLabel">' + year + '</span></td>');
+    document.write('<td width="45%">&nbsp</td>');
+    StiDatePickerRenderButton('&nbsp X &nbsp', 'StiDatePickerHide();');
+
+    document.write('</tr></table>');
+}
+
+function StiDatePickerRenderMonthSelect(monthNames, date)
+{
+    month = monthNames[date.getMonth()];
+
+    document.write('<select class=hidden id="StiDatePickerMonth" onchange="StiDatePickerHideMonth();" onblur="StiDatePickerHideMonth();">');
+    for (var i = 0; i < 12; i++)
+    {
+        document.write('<option');
+        if (month == i) document.write('selected');
+        document.write('>' + monthNames[i] + '</option>');
+    }
+    document.write('</select> ');
+}
+
+function StiDatePickerShowMonth(item)
+{
+    var month = document.getElementById('StiDatePickerMonth');
+    month.style.left = GetLeftPosition(item) - 5 + 'px';
+    month.style.top = GetTopPosition(item) + 'px';
+    month.style.visibility = 'visible';
+    month.focus();
+}
+
+function StiDatePickerHideMonth()
+{
+    var month = document.getElementById('StiDatePickerMonth');
+    if (month.style.visibility == 'visible')
+    {
+        var monthLabel = document.getElementById('StiDatePickerMonthLabel');
+        monthLabel.innerHTML = month.options[month.selectedIndex].text;
+        month.style.visibility = 'hidden';
+        
+        var date = StiDatePickerGetDate();
+        StiDatePickerRenderCells(date);
+    }
+}
+
+function StiDatePickerRenderYearSelect(date)
+{
+    document.write('<input class="hidden" size="4" id="StiDatePickerYear" type=text value="2007" onkeydown="if (event.keyCode == 13) { StiDatePickerHideYear(); return false;}" onblur="StiDatePickerHideYear();">');
+}
+
+function StiDatePickerShowYear(item)
+{
+    var year = document.getElementById('StiDatePickerYear');
+    year.style.left = GetLeftPosition(item) - 3 + 'px';
+    year.style.top = GetTopPosition(item) + 'px';
+    year.style.visibility = 'visible';
+    year.focus();
+}
+
+function StiDatePickerHideYear()
+{
+    var year = document.getElementById('StiDatePickerYear');
+    if (year.style.visibility == 'visible')
+    {
+        var yearLabel = document.getElementById('StiDatePickerYearLabel');
+        yearLabel.innerHTML = year.value;
+        year.style.visibility = 'hidden';
+        
+        var date = StiDatePickerGetDate();
+        StiDatePickerRenderCells(date);
+    }    
+}
+
+function StiDatePickerRenderCells(date)
+{
+    var table = '';
+    
+    var startDate = new Date(date.getFullYear(), date.getMonth(), 1);
+    var countDate = new Date(date.getFullYear(), date.getMonth() + 1, 0);
+    var nowDate = new Date();
+    var weekDay = startDate.getDay();
+    if (weekDay == 0) weekDay = 7;
+
+    table += '<table class="monthTable" width="100%" border="0" cellspacing="0" cellpadding="0"><tr>';
+    for (var i = 1; i < weekDay; i++)
+    {
+        grayDate = new Date(date.getFullYear(), date.getMonth(), 1 + i - weekDay);
+        table += '<td class="grayed">' + grayDate.getDate() + '</td>';
+    }
+    
+    // debugger;
+    for (var i = 1; i <= countDate.getDate(); i++)
+    {
+        if (weekDay > 7)
+        {
+            table += '</tr><tr>';
+            weekDay = 1;
+        }
+        
+        var color = '#000000';
+        if (weekDay == 7) color = '#ff0000';
+        
+        var nowClass = null;
+        if (date.getFullYear() == nowDate.getFullYear() && date.getMonth() == nowDate.getMonth() && nowDate.getDate() == i) nowClass = '\'now\'';
+        if (date.getFullYear() == previousDate.getFullYear() && date.getMonth() == previousDate.getMonth() && previousDate.getDate() == i) nowClass = '\'selected\'';
+        
+        table += '<td class=' + nowClass;
+        table += ' onmouseover="this.className=\'hover\'"';
+        table += ' onmouseout="this.className=' + nowClass + '"';
+        table += ' onclick="StiDatePickerOnCellClick(this);"';
+        table += ' style="color: ' + color + ';">' + i + '</td>';
+        
+        weekDay++;
+    }
+    
+    for (var i = weekDay; i <= 7; i++)
+    {
+        grayDate = new Date(date.getFullYear(), date.getMonth(), 1 + i - weekDay);
+        table += '<td class="grayed">' + grayDate.getDate() + '</td>';
+    }
+
+
+    table += '</tr></table>';
+    
+    cells = document.getElementById('StiDatePickerCells');
+    cells.innerHTML = table;
+}
+
+function StiDatePickerInit()
+{
+    var monthNames = new Array(MonthJanuary, MonthFebruary, MonthMarch, MonthApril, MonthMay, MonthJune, MonthJuly, MonthAugust, MonthSeptember, MonthOctober, MonthNovember, MonthDecember);
+    var dayNames = new Array(DayMonday, DayTuesday, DayWednesday, DayThursday, DayFriday, DaySaturday, DaySunday);
+
+    date = new Date(2007, 0, 1);
+
+    document.write('<input id="StiDatePickerHtmlDatePickerId" type="hidden">');
+    document.write('<input id="StiDatePickerDay" type="hidden">');
+    document.write('<input id="StiDatePickerDateFormat" type="hidden">');
+    
+
+    document.write('<div class="stidatepicker" id="StiDatePicker" style="position: absolute;">');
+    document.write('<table class="border" cellspacing="0" cellpadding="0"><tr><td>');
+        
+    document.write('<table class=border2 cellspacing=0 cellpadding=0>');
+
+    document.write('<tr><td>');
+    
+    StiDatePickerRenderCaption(monthNames, date);
+    document.write('</td></tr>');
+    
+    document.write('<tr><td>');
+    document.write('<table width="100%" border="0" cellspacing="0" cellpadding="0" width="0">');
+    document.write('<tr>');
+    StiDatePickerRenderButton('&nbsp&lt&lt&nbsp', 'StiDatePickerIncYear(-1);');         // <<
+    StiDatePickerRenderButton('&nbsp&nbsp&lt&nbsp&nbsp', 'StiDatePickerIncMonth(-1);');  // <
+
+    document.write('<td class=today align="center" width="100%" style="cursor: pointer;" onclick="StiDatePickerSetDate(new Date());">' + TodayDate + '</td>');
+    StiDatePickerRenderMonthSelect(monthNames, date);
+    StiDatePickerRenderYearSelect(date);
+    
+    StiDatePickerRenderButton('&nbsp&nbsp&gt&nbsp&nbsp', 'StiDatePickerIncMonth(1);');  // >
+    StiDatePickerRenderButton('&nbsp&gt&gt&nbsp', 'StiDatePickerIncYear(1);');         // >>
+    document.write('</tr></table>');
+    document.write('</td></tr>');
+    
+    document.write('<tr><td class=month><span id="StiDatePickerCells"></span></td></tr>');
+    
+    document.write('</table></td></tr></table>');
+    document.write('</div>');
+}
+
+function StiDatePickerOnCellClick(cell)
+{
+    var htmlDatePickerId = document.getElementById('StiDatePickerHtmlDatePickerId');
+    var htmlDatePicker = document.getElementById(htmlDatePickerId.value);
+    var dateFormat = document.getElementById('StiDatePickerDateFormat');
+    var monthItem = document.getElementById('StiDatePickerMonth');
+    
+    var year = document.getElementById('StiDatePickerYear').value;
+    var month = monthItem.selectedIndex + 1;
+    if (eval(month) < 10) month = '0' + month;
+    var day = cell.innerHTML;
+    if (eval(day) < 10) day = '0' + day;
+    
+    htmlDatePicker.value = dateFormat.value.replace('yyyy', year).replace('yy', year.substring(2,3)).replace('mm', month).replace('dd', day);
+    
+    StiDatePickerHide();
+}
+
+function StiDatePickerSetDate(date)
+{
+    var year = document.getElementById('StiDatePickerYear');
+    var month = document.getElementById('StiDatePickerMonth');
+    var day = document.getElementById('StiDatePickerDay');
+    var yearLabel = document.getElementById('StiDatePickerYearLabel');
+    var monthLabel = document.getElementById('StiDatePickerMonthLabel');
+    
+    year.value = date.getFullYear();
+    month.selectedIndex = date.getMonth();
+    day.value = date.getDate();
+    yearLabel.innerHTML = year.value;
+    monthLabel.innerHTML = month.options[month.selectedIndex].text;
+    
+    StiDatePickerRenderCells(date);
+}
+
+function StiDatePickerGetDate()
+{
+    var year = document.getElementById('StiDatePickerYear');
+    var month = document.getElementById('StiDatePickerMonth');
+    var day = document.getElementById('StiDatePickerDay');
+    
+    return new Date(year.value, month.selectedIndex, day.value);
+}
+
+
+function StiDatePickerShow(htmlDatePicker, dateFormatValue)
+{
+    // yyyy/mm/dd
+    // yy/mm/dd
+    // dd/mm/yyyy
+    // dd/mm/yy
+
+    var datePicker = document.getElementById('StiDatePicker');
+
+    if (datePicker.style.visibility == 'visible')
+    {
+        StiDatePickerHide();
+    }
+    else
+    {
+        var dateFormat = document.getElementById('StiDatePickerDateFormat');
+        dateFormat.value = dateFormatValue;
+        
+        var htmlDatePickerId = document.getElementById('StiDatePickerHtmlDatePickerId');
+        htmlDatePickerId.value = htmlDatePicker.id.substring(0, htmlDatePicker.id.length - 7);
+    
+        var dateText = document.getElementById(htmlDatePickerId.value);
+    
+        var dateValue = '2007/01/01';
+        if (dateFormatValue.length == dateText.value.length)
+        {
+            var yyyyId = dateFormatValue.search('yyyy');
+            var yyyy = dateText.value.substring(yyyyId, yyyyId + 4);
+            
+            if (yyyyId < 0)
+            {
+                var yyId = dateFormatValue.search('yy');
+                var yy = dateText.value.substring(yyId, yyId + 2);
+                if (eval(yy) < 20) yyyy = '20' + yy;
+                else yyyy = '19' + yy;
+            }
+            
+            var mmId = dateFormatValue.search('mm');
+            var mm = dateText.value.substring(mmId, mmId + 2);
+            
+            var ddId = dateFormatValue.search('dd');
+            var dd = dateText.value.substring(ddId, ddId + 2);
+            
+            dateValue = yyyy + '/' + mm + '/' + dd;
+        }
+        
+        // debugger;
+        var date = new Date();
+        date.setTime(Date.parse(dateValue));
+        previousDate = date;
+        StiDatePickerSetDate(date);
+    
+        datePicker.style.left = GetLeftPosition(dateText) + 'px';
+        datePicker.style.top = GetTopPosition(dateText) + 25 + 'px';
+        datePicker.style.visibility = 'visible';
+    }
+}
+
+function StiDatePickerHide()
+{
+    StiDatePickerHideMonth();
+    StiDatePickerHideYear();
+    var datePicker = document.getElementById('StiDatePicker');
+    datePicker.style.visibility = 'hidden';
+    datePicker.style.left = '-200px';
+}
+
+function StiDatePickerIncYear(value)
+{
+    var date = StiDatePickerGetDate();
+    date = new Date(date.getFullYear() + value, date.getMonth(), date.getDate());
+    StiDatePickerSetDate(date);
+}
+
+function StiDatePickerIncMonth(value)
+{
+    var date = StiDatePickerGetDate();
+    date = new Date(date.getFullYear(), date.getMonth() + value, date.getDate());
+    StiDatePickerSetDate(date);
+}
+</script>
+<script language="javascript" type="text/javascript">StiDatePickerInit();</script><script language="javascript" type="text/javascript">
+// Load indicator
+
+function ShowLoadMessage(webViewerId)
+{
+    loadMessage = document.getElementById("webLoadMessage_" + webViewerId);
+    reportFrame = document.getElementById("webReportFrame_" + webViewerId);
+    reportTable = reportFrame.contentWindow.document.getElementById("webReportTable_" + webViewerId);
+
+    var left = 3;
+    var top = 3;
+    
+    p = reportFrame;
+    for (; p; p = p.offsetParent)
+    {
+        if (p.style.position != 'absolute')
+        {
+            left += p.offsetLeft;
+            top  += p.offsetTop;
+        }
+    }
+    
+    p = reportTable;
+    for (; p; p = p.offsetParent)
+    {
+        if (p.style.position != 'absolute')
+        {
+            left += p.offsetLeft;
+            top  += p.offsetTop;
+        }
+    }
+
+    left += reportTable.offsetWidth / 2 - loadMessage.offsetWidth / 2;
+    top += reportTable.offsetHeight / 4;
+    
+    loadMessage.style.left = left+'px';
+    loadMessage.style.top = top+'px';
+    
+    loadMessage.style.visibility = "visible";
+}
+
+function HideLoadMessage(webViewerId)
+{
+    reportFrame = document.getElementById("webReportFrame_" + webViewerId);
+    loadMessage = document.getElementById("webLoadMessage_" + webViewerId);
+    reportTable = reportFrame.contentWindow.document.getElementById("webReportTable_" + webViewerId);
+    scrollFrame = reportFrame.contentWindow.document.getElementById("webScrollFrame_" + webViewerId);
+    
+    heightDelta = 40;
+    if (scrollFrame != null) heightDelta = 0;
+    
+    reportFrame.width = reportTable.offsetWidth;
+    reportFrame.height = reportTable.offsetHeight - heightDelta;
+    loadMessage.style.visibility = "hidden";
+    
+    // debugger;
+    if (scrollFrame == null)
+    {
+        webViewer = document.getElementById(webViewerId);
+        webViewer.style.width = reportTable.offsetWidth + "px";
+        webViewer.style.height = reportTable.offsetHeight + "px";
+    }
+}
+
+// ToolButton functions
+
+function IsToolButtonEnabled(button)
+{
+    return (button.className != 'disabled');
+}
+
+function ToolButton_OnMouseOver(button)
+{
+    if (IsToolButtonEnabled(button)) button.className = 'hover';
+}
+
+function ToolButton_OnMouseOut(button)
+{
+    if (IsToolButtonEnabled(button)) button.className = null;
+}
+
+function ToolButton_OnMouseDown(button)
+{
+    if (IsToolButtonEnabled(button)) button.className = 'active';
+}
+
+function ToolButton_OnMouseUp(button)
+{
+    ToolButton_OnMouseOver(button);
+}
+
+function ToolButton_OnClick(button, webViewerId)
+{
+    if (!IsToolButtonEnabled(button)) return false;
+
+    ShowLoadMessage(webViewerId);
+    return true;
+}
+
+function ZoomList_OnChange(zoomList, webViewerId)
+{
+    ShowLoadMessage(webViewerId);
+    return 'Zoom' + zoomList.value.replace('%', '');
+}
+
+function ViewModeList_OnChange(viewModeList, webViewerId)
+{
+    ShowLoadMessage(webViewerId);
+    if (viewModeList.selectedIndex == 0) return 'ViewModeOnePage';
+    if (viewModeList.selectedIndex == 1) return 'ViewModeWholeReport';
+}
+
+// Set ToolBar state
+
+function GetToolElementById(webViewerId, toolControlId)
+{
+    toolControl = document.getElementById(webViewerId + '_' + toolControlId);
+    if (toolControl != null) return toolControl;
+    
+    parts = webViewerId.split('_');
+    return document.getElementById(parts[parts.length - 1] + '_' + toolControlId);
+}
+
+function SetToolButtonState(button, absolutePath, buttonImagePath, enabled)
+{
+    var imgPath = '';
+    if (buttonImagePath != null && buttonImagePath.length > 0) imgPath = buttonImagePath;
+    else imgPath = absolutePath + '?stimulreport_btnimage=';
+    imgPath += button.name;
+    
+    if (enabled)
+    {
+        imgPath += '.gif';
+        if (!IsToolButtonEnabled(button)) button.className = null;
+    }
+    else
+    {
+        imgPath += 'Disabled.gif';
+        button.className = "disabled";
+    }
+    
+    if (button.src != imgPath) button.src = imgPath;
+}
+
+function SetPageNumberValue(webViewerId, currentPage, pagesCount)
+{
+    pageNumber = GetToolElementById(webViewerId, 'PageNumber');
+    pagesCountLabel = GetToolElementById(webViewerId, "PagesCountLabel");
+
+    if (pageNumber != null && pagesCountLabel != null)
+    {
+        pageNumber.value = eval(currentPage) + 1;
+        pageNumber.disabled = (Number(pagesCount) <= 1);
+        pagesCountLabel.innerHTML = pagesCount;
+    }
+}
+
+function SetZoomValue(webViewerId, zoomPercent)
+{
+    zoomList = GetToolElementById(webViewerId, 'ZoomList');
+    if (zoomList != null) zoomList.value = zoomPercent + '%';
+
+    zoomMenu = GetToolElementById(webViewerId, 'ZoomLabel');
+    if (zoomMenu != null) zoomMenu.innerHTML = zoomPercent + '%';
+}
+
+function SetViewModeValue(webViewerId, viewMode, viewModeWidth)
+{
+    viewModeMenu = GetToolElementById(webViewerId, 'ViewMode');
+    viewModeMenuLabel = GetToolElementById(webViewerId, 'ViewModeLabel');
+    
+    if (viewModeMenu != null && viewModeMenuLabel != null)
+    {
+        viewModeMenu.style.width = viewModeWidth + 'px';
+        viewModeMenuLabel.innerHTML = viewMode;
+    }
+    
+    viewModeList = GetToolElementById(webViewerId, 'ViewModeList');
+    if (viewModeList != null) viewModeList.value = viewMode;
+}
+
+function SetToolbarState(args)
+{
+    properties = args.split(';');
+    webViewerId = properties[0];
+    absolutePath = properties[1];
+    currentPage = Number(properties[2]);
+    pagesCount = Number(properties[3]);
+    zoomPercent = properties[4];
+    viewMode = properties[5];
+    viewModeWidth = properties[6];
+    showDropDownMenu = properties[7];
+    buttonImagePath = properties[8];
+   
+    // debugger;
+    
+    if (currentPage >= pagesCount) currentPage = pagesCount - 1;
+    
+    button = GetToolElementById(webViewerId, 'FirstPage');
+    if (button != null) SetToolButtonState(button, absolutePath, buttonImagePath, currentPage > 0);
+    
+    button = GetToolElementById(webViewerId, 'PrevPage');
+    if (button != null) SetToolButtonState(button, absolutePath, buttonImagePath, currentPage > 0);
+
+    button = GetToolElementById(webViewerId, 'NextPage');
+    if (button != null) SetToolButtonState(button, absolutePath, buttonImagePath, currentPage < pagesCount - 1);
+
+    button = GetToolElementById(webViewerId, 'LastPage');
+    if (button != null) SetToolButtonState(button, absolutePath, buttonImagePath, currentPage < pagesCount - 1);
+
+    SetPageNumberValue(webViewerId, currentPage, pagesCount);
+    SetZoomValue(webViewerId, zoomPercent);
+    SetViewModeValue(webViewerId, viewMode, viewModeWidth);
+}
+
+// CallBack function
+
+function CallbackFunction(args, context)
+{
+    SetToolbarState(args);
+
+    properties = args.split(';');
+    webViewerId = properties[0];
+
+    properties = args.split(';');
+    pageSrc = properties[9];
+    reportFrame = document.getElementById('webReportFrame_' + webViewerId);
+    reportFrame.src = pageSrc;
+}
+</script>
+<script language="javascript" type="text/javascript">
+function MenuShowEvent(parent, child)
+{
+    var p = document.getElementById(parent);
+    var c = document.getElementById(child);
+    p.className = 'hover';
+  
+    var left = -1;
+    var top = p.offsetHeight + 2;
+  
+    for (; p; p = p.offsetParent)
+    {
+        if (p.style.position != 'absolute')
+        {
+            left += p.offsetLeft;
+            top  += p.offsetTop;
+        }
+    }
+  
+    c.style.position = 'absolute';
+    c.style.left = left + 'px';
+    c.style.top = top + 'px';
+    c.style.visibility = 'visible';
+}
+
+function MenuHideEvent(parent, child)
+{
+    document.getElementById(parent).className = null;
+    document.getElementById(child).style.visibility = 'hidden';
+}
+
+function MenuShowParent()
+{
+    c = document.getElementById(this['at_child']);
+    MenuShowEvent(this.id, c.id);
+    clearTimeout(c['at_timeout']);
+}
+
+function MenuShowChild()
+{
+    p = document.getElementById(this['at_parent']);
+    MenuShowEvent(p.id, this.id);
+    clearTimeout(this['at_timeout']);
+}
+
+function MenuHideParent()
+{
+    c = document.getElementById(this['at_child']);
+    c['at_timeout'] = setTimeout("MenuHideEvent('" + this.id + "', '" + c.id + "')", 100);
+}
+
+function MenuHideChild()
+{
+    p = document.getElementById(this['at_parent']);
+    this['at_timeout'] = setTimeout("MenuHideEvent('" + p.id + "', '" + this.id + "')", 100);
+}
+
+function MenuItemsAttach(parent, child)
+{
+    p = document.getElementById(parent);
+    c = document.getElementById(child);
+    p['at_child'] = c.id;
+    c['at_parent'] = p.id;
+    p.onmouseover = MenuShowParent;
+    p.onmouseout = MenuHideParent;
+    c.onmouseover = MenuShowChild;
+    c.onmouseout = MenuHideChild;
+    c.onclick = MenuHideChild;
+}
+
+function BuildMenuItems(parent, child, width, imagePath, callback, urlPath, webViewerId)
+{
+    document.write('<div class=vertMenu id="' + parent + '_child">');
+    document.write('<table class="menuBorder"><tr><td>');
+    document.write('<table><tr><td width=100%>');
+    n = 0;
+    for (var i in child)
+    {
+        var showLoadMessage = '';
+        // debugger;
+        if (child[i].indexOf('Zoom') == 0 || child[i].indexOf('ViewMode') == 0) showLoadMessage = 'ShowLoadMessage(\'' + webViewerId + '\'); ';
+        id = parent + '_' + n;
+        document.write('<a id="' + id + '"');
+        if (child[i].indexOf('PrintToPdf') == 0 || child[i].indexOf('Save') == 0)
+            document.write(' onclick="window.open(\'' + urlPath.replace('callbackCommand', child[i]) + '\');"');
+        else
+            document.write(' onclick="' + showLoadMessage + callback.replace('callbackCommand', child[i]) + ';"');
+        document.write(' style="width: ' + width + '"');
+        document.write(' onmouseover="this.className = \'hover\';"');
+        document.write(' onmouseout="this.className = null;">');
+        document.write('<nobr>');
+        if (imagePath != '') document.write('<img src="' + imagePath + 'Menu' + child[i] + '.gif" align="left">');
+        document.write('<span style="vertical-align: 1px;">&nbsp</span> ' + i + '</nobr></a>');
+        n++;
+    }
+    document.write('</td></tr></table></td></tr></table></div>');
+    MenuItemsAttach(parent, parent+'_child');
+}
+
+function BuildMenu(menu, width, imagePath, callback, urlPath, webViewerId)
+{
+    // debugger;
+    for (var i in menu) BuildMenuItems(i, menu[i], width, imagePath, callback, urlPath, webViewerId);
+}
+
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="746206E5" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAALgfbEP0tC1oU3qodhz9DrWxZeVfqV8vU40Ihhc+JlT++w83bmGPTE3qC9Ng101aiex3cyHdxwT4wRp/4TPEEtd" />
+</div>
+    <div>
+        <style type="text/css">
+div.webToolbar img {
+	border: 1px solid;
+	padding: 0px 0px 0px 0px;
+	width: 24px;
+	height: 24px; }
+
+div.webToolbar img.hover {
+	border: solid 1px blue;
+	background: lightsteelblue; }
+
+div.webToolbar img.active {
+	border: solid 1px blue;
+	background: #a3b7d1; }
+
+div.webLoadMessage {
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+		-moz-opacity: 0.8;
+		-khtml-opacity: 0.8;
+		opacity: 0.8;
+	position: absolute;
+	visibility: hidden;
+	left: 300px;
+	top: 300px; }
+
+div.webMenu div.vertMenu {
+	position: absolute;
+	visibility: hidden;
+	font-family: "MS Sans Serif" , Serif;
+	font-weight: 200;
+	font-size: 12px;
+	color: #303030;
+	text-align: left; }
+
+div.webMenu a {
+	display: block;
+	float: left;
+	border: 1px solid;
+	padding: 4px 25px 4px 4px;
+	font-family: "MS Sans Serif" , Serif;
+	font-weight: 200;
+	font-size: 12px;
+	color: #303030;
+	cursor: default;
+	text-align: left; }
+    
+div.webMenu a.hover,
+div.webMenu div.vertMenu a.hover {
+	border-color: #0000ff;
+	background: #b0c4de; }
+
+div.webMenu div.horzMenu a {
+    padding: 2px 1px 2px 4px; }
+
+div.webMenu div.vertMenu a {
+	border-color: #eeeeee;
+	float: none; }
+	
+div.webMenu table {
+	border: 0px;
+	font-family: "MS Sans Serif", Serif;
+    font-weight: 200;
+    font-size: 15px;
+    border-collapse: collapse; }
+
+div.webMenu div.vertMenu table.menuBorder {
+	background-color: #a0a0a0; }
+
+div.webMenu div.vertMenu table {
+	background-color: #eeeeee; }
+
+div.webMenu img {
+	border: 0px;
+	width: 16px;
+	height: 16px; }
+</style>
+<style type="text/css">
+div.webToolbar img,
+div.webMenu a {
+  border-color: #FFFFFF;
+}
+</style>
+<div id="webLoadMessage_StiWebViewer1" class="webLoadMessage">
+<table bgcolor="#000000" border="0" cellspacing="0"><tr><td><table bgcolor="#fffacd" border="0"><tr><td align="center" width="130" height="25">
+<span style="vertical-align: -4px;"><img src="/Report/Report_xemDiemThi.aspx?stimulreport_btnimage=Loading.gif" /></span> <font face="Arial" size="2" color="Black">
+Loading...&nbsp&nbsp</font>
+</tr></td></table></tr></td></table>
+</div>
+<span id="StiWebViewer1" style="display:inline-block;height:300px;width:412px;"><div class=webToolbar><div style="height:35px;width:100%;">
+	<table width="100%" bgcolor="#FFFFFF">
+		<tr>
+			<td><table align="Left" bgcolor="#FFFFFF">
+				<tr>
+					<td><div class=webMenu>
+					<div class=horzMenu style="font-family: MS Sans Serif; font-size: 12px;"><table><tr><td><a id="StiWebViewer1_Print" style="width: 49px;"><img src="/Report/Report_xemDiemThi.aspx?stimulreport_btnimage=MenuPrint.gif" align=left><span style="vertical-align: 1px;">&nbsp</span><span id="StiWebViewer1_PrintLabel">Print</span></a></td></tr></table></div>
+					<script language="javascript" type="text/javascript">
+					var toolbarPrintSubmenu = { "Print to Pdf" : "PrintToPdf","Print with Preview" : "PrintToPopupWindow","Print without Preview" : "PrintToDirect" };
+var toolbarPrintMenu = { "StiWebViewer1_Print" : toolbarPrintSubmenu };
+					BuildMenu(toolbarPrintMenu, '140px', '/Report/Report_xemDiemThi.aspx?stimulreport_btnimage=', "__doPostBack('StiWebViewer1','callbackCommand')", 'https://edusoftweb.hcmiu.edu.vn/Report/Report_xemDiemThi.aspx?sti_StiWebViewer1_export=callbackCommand&sti_StiWebViewer1_guid=306f8901-9c3e-461f-a9fe-0aa7f7b63314', 'StiWebViewer1');
+					</script>
+					</div>
+					</td>
+					<td><div class=webMenu>
+					<div class=horzMenu style="font-family: MS Sans Serif; font-size: 12px;"><table><tr><td><a id="StiWebViewer1_Save" style="width: 52px;"><img src="/Report/Report_xemDiemThi.aspx?stimulreport_btnimage=MenuSave.gif" align=left><span style="vertical-align: 1px;">&nbsp</span><span id="StiWebViewer1_SaveLabel">Save</span></a></td></tr></table></div>
+					<script language="javascript" type="text/javascript">
+					var toolbarSaveSubmenu = { "Adobe Pdf" : "SaveAdobePdf","Html" : "SaveHtml","Text" : "SaveText","Rich Text" : "SaveRichText","Microsoft Excel" : "SaveMicrosoftExcel","Csv" : "SaveCsv","Dbase" : "SaveDbase","Xml" : "SaveXml","Bmp" : "SaveBmp" };
+var toolbarSaveMenu = { "StiWebViewer1_Save" : toolbarSaveSubmenu };
+					BuildMenu(toolbarSaveMenu, '110px', '/Report/Report_xemDiemThi.aspx?stimulreport_btnimage=', "__doPostBack('StiWebViewer1','callbackCommand')", 'https://edusoftweb.hcmiu.edu.vn/Report/Report_xemDiemThi.aspx?sti_StiWebViewer1_export=callbackCommand&sti_StiWebViewer1_guid=306f8901-9c3e-461f-a9fe-0aa7f7b63314', 'StiWebViewer1');
+					</script>
+					</div>
+					</td>
+					<td><img id=StiWebViewer1_FirstPage name="FirstPage" alt="" onmouseover="ToolButton_OnMouseOver(this);" onmouseout="ToolButton_OnMouseOut(this);" onmousedown="ToolButton_OnMouseDown(this);" onmouseup="ToolButton_OnMouseUp(this);" onclick="if (ToolButton_OnClick(this, 'StiWebViewer1')) WebForm_DoCallback('StiWebViewer1','FirstPage',CallbackFunction,null,null,false);" src="/Report/Report_xemDiemThi.aspx?stimulreport_btnimage=FirstPage.gif"/></td>
+					<td><img id=StiWebViewer1_PrevPage name="PrevPage" alt="" onmouseover="ToolButton_OnMouseOver(this);" onmouseout="ToolButton_OnMouseOut(this);" onmousedown="ToolButton_OnMouseDown(this);" onmouseup="ToolButton_OnMouseUp(this);" onclick="if (ToolButton_OnClick(this, 'StiWebViewer1')) WebForm_DoCallback('StiWebViewer1','PrevPage',CallbackFunction,null,null,false);" src="/Report/Report_xemDiemThi.aspx?stimulreport_btnimage=PrevPage.gif"/></td>
+					<td style="font-family:Microsoft Sans Serif;font-size:8pt;"><nobr> Page  </nobr></td>
+					<td><input name="StiWebViewer1$PageNumber" type="text" id="StiWebViewer1_PageNumber" onkeypress="if (event.keyCode == 13) { ShowLoadMessage(&#39;StiWebViewer1&#39;); WebForm_DoCallback(&#39;StiWebViewer1&#39;,&#39;PageNumber&#39; + this.value,CallbackFunction,null,null,false); return false;}" style="width:40px;font-family:Microsoft Sans Serif;font-size:8pt;text-align:right;" /></td>
+					<td style="font-family:Microsoft Sans Serif;font-size:8pt;"><nobr> of <span id=StiWebViewer1_PagesCountLabel>5</span></nobr></td>
+					<td><img id=StiWebViewer1_NextPage name="NextPage" alt="" onmouseover="ToolButton_OnMouseOver(this);" onmouseout="ToolButton_OnMouseOut(this);" onmousedown="ToolButton_OnMouseDown(this);" onmouseup="ToolButton_OnMouseUp(this);" onclick="if (ToolButton_OnClick(this, 'StiWebViewer1')) WebForm_DoCallback('StiWebViewer1','NextPage',CallbackFunction,null,null,false);" src="/Report/Report_xemDiemThi.aspx?stimulreport_btnimage=NextPage.gif"/></td>
+					<td><img id=StiWebViewer1_LastPage name="LastPage" alt="" onmouseover="ToolButton_OnMouseOver(this);" onmouseout="ToolButton_OnMouseOut(this);" onmousedown="ToolButton_OnMouseDown(this);" onmouseup="ToolButton_OnMouseUp(this);" onclick="if (ToolButton_OnClick(this, 'StiWebViewer1')) WebForm_DoCallback('StiWebViewer1','LastPage',CallbackFunction,null,null,false);" src="/Report/Report_xemDiemThi.aspx?stimulreport_btnimage=LastPage.gif"/></td>
+					<td><div class=webMenu>
+					<div class=horzMenu style="font-family: MS Sans Serif; font-size: 12px;"><table><tr><td><a id="StiWebViewer1_Zoom" style="width: 55px;"><img src="/Report/Report_xemDiemThi.aspx?stimulreport_btnimage=MenuZoom.gif" align=left><span style="vertical-align: 1px;">&nbsp</span><span id="StiWebViewer1_ZoomLabel">100%</span></a></td></tr></table></div>
+					<script language="javascript" type="text/javascript">
+					var toolbarZoomSubmenu = { "25%" : "Zoom25","50%" : "Zoom50","75%" : "Zoom75","100%" : "Zoom100","150%" : "Zoom150","200%" : "Zoom200" };
+var toolbarZoomMenu = { "StiWebViewer1_Zoom" : toolbarZoomSubmenu };
+					BuildMenu(toolbarZoomMenu, '35px', '', "WebForm_DoCallback('StiWebViewer1','callbackCommand',CallbackFunction,null,null,false)", 'https://edusoftweb.hcmiu.edu.vn/Report/Report_xemDiemThi.aspx?sti_StiWebViewer1_export=callbackCommand&sti_StiWebViewer1_guid=306f8901-9c3e-461f-a9fe-0aa7f7b63314', 'StiWebViewer1');
+					</script>
+					</div>
+					</td>
+					<td><div class=webMenu>
+					<div class=horzMenu style="font-family: MS Sans Serif; font-size: 12px;"><table><tr><td><a id="StiWebViewer1_ViewMode" style="width: 76px;"><img src="/Report/Report_xemDiemThi.aspx?stimulreport_btnimage=MenuViewMode.gif" align=left><span style="vertical-align: 1px;">&nbsp</span><span id="StiWebViewer1_ViewModeLabel">One Page</span></a></td></tr></table></div>
+					<script language="javascript" type="text/javascript">
+					var toolbarViewModeSubmenu = { "One Page" : "ViewModeOnePage","Whole Report" : "ViewModeWholeReport" };
+var toolbarViewModeMenu = { "StiWebViewer1_ViewMode" : toolbarViewModeSubmenu };
+					BuildMenu(toolbarViewModeMenu, '110px', '/Report/Report_xemDiemThi.aspx?stimulreport_btnimage=', "WebForm_DoCallback('StiWebViewer1','callbackCommand',CallbackFunction,null,null,false)", 'https://edusoftweb.hcmiu.edu.vn/Report/Report_xemDiemThi.aspx?sti_StiWebViewer1_export=callbackCommand&sti_StiWebViewer1_guid=306f8901-9c3e-461f-a9fe-0aa7f7b63314', 'StiWebViewer1');
+					</script>
+					</div>
+					</td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+	</table>
+
+</div></div><table align="Left" border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td><iframe name="webReportFrame_StiWebViewer1" id="webReportFrame_StiWebViewer1" style="background-color: white" src="/Report/Report_xemDiemThi.aspx?sr_print=fd250db7f8d9497e" width="100%" height="0" scrolling="no" frameborder="no" onload="javascript:HideLoadMessage('StiWebViewer1');"></iframe></td></tr></table><br>
+</span><script language="javascript" type="text/javascript">SetToolbarState('StiWebViewer1;/Report/Report_xemDiemThi.aspx;0;5;100;One Page;76;True;;');</script>
+    </div>
+    <div>
+    
+    </div>
+    <span id="StiWebReport1" style="height: 31px"></span>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+var callBackFrameUrl='/WebResource.axd?d=521O2ccJyTnI-f0IiBi7eceB_no-CraXCV6-b9xzteGU7Xq9K1jo4Yz8hqFW_RIWSQ1rtYTlXHnVgAcTIRdvz94yoh-_wirDRnnibYasntg1&t=636888024864333665';
+WebForm_InitCallback();//]]>
+</script>
+</form>
+</body>
+</html>
